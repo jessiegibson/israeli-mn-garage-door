@@ -1,0 +1,68 @@
+
+/* INITIAL WEBPAGE SETUP
+-------------------------------------------------- */
+html {
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+    font-weight:300;
+}
+
+#marketing-teaser {
+    height:500px;
+    padding-top:10%;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    min-height:300px;
+    padding:50px 20px;
+    font
+}
+footer a {
+    color:#e74c3c;
+}
+
+footer a:hover {
+    color:#fff;
+}
+
+/* -- CONTACT.PHP PAGE -- */
+#form-wrapper {
+    width: 75%;
+    margin:25px auto;
+}
+
+/* FEATURETTE BACKGROUND IMAGES
+-------------------------------------------------- */
+
+#garage-doors .col-md-5 {
+    background: url('../img/broken-garage-door-repair-500.jpg') no-repeat center center;
+    background-size: cover;
+    height:286px;
+    width:330px;
+}
+#garage-springs .col-md-5{
+    background: url('../img/broken-garage-spring-repair-500.jpg') no-repeat center center;
+    background-size: cover;
+    height:286px;
+    width:330px;
+}
+#garage-opener .col-md-5 {
+    background: url('../img/garage-door-opener-repair-500.jpg') no-repeat center center;
+    background-size: cover;
+    height:286px;
+    width:330px;
+}
+
+div.featurette div {
+    min-height:500px;
+    background:rbga(0,0,0,.4);
+}
+
+/* ICONS
+-------------------------------------------------- */
+
+.glyphicon {
+    font-size: 44px;
+}
